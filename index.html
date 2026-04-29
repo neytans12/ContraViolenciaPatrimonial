@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contra Violência Patrimonial</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Tailwind CSS (Play CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            yellow: '#FAC878',
+                            pink: '#FF9C85',
+                            purple: '#7A4494',
+                            mint: '#48C5AA',
+                            deep: '#48407D',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        display: ['Poppins', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased overflow-x-hidden">
+
+    <!-- Hero Section -->
+    <header class="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-brand-deep to-brand-purple text-white px-4">
+        <div class="absolute inset-0 bg-black/20"></div>
+        <div class="relative z-10 max-w-4xl mx-auto text-center" data-aos="fade-up" data-aos-duration="1000">
+            <span class="inline-block py-1 px-3 rounded-full bg-brand-yellow/20 text-brand-yellow font-semibold text-sm tracking-wider uppercase mb-6">Conscientização</span>
+            <h1 class="font-display text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8">
+                Nem toda violência <span class="text-brand-pink">machuca o corpo.</span>
+            </h1>
+            <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto font-light">
+                A violência patrimonial é uma forma silenciosa de controle que afeta a independência e a segurança financeira de muitas mulheres. Reconhecer os sinais é o primeiro passo para retomar o controle da sua vida.
+            </p>
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#definicao" class="px-8 py-4 bg-brand-pink text-white font-semibold rounded-full hover:bg-brand-pink/90 hover:scale-105 transition-all duration-300 shadow-lg w-full sm:w-auto">
+                    Entenda o Problema
+                </a>
+            </div>
+        </div>
+        
+        <!-- Scroll indicator -->
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#definicao" class="text-white/70 hover:text-white transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                </svg>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- O que é violência patrimonial -->
+        <section id="definicao" class="py-24 px-4 md:px-8 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div data-aos="fade-right">
+                        <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-brand-deep mb-6">O que é a violência patrimonial?</h2>
+                        <div class="w-20 h-2 bg-brand-yellow mb-8 rounded-full"></div>
+                        <p class="text-lg text-gray-600 mb-6 leading-relaxed">
+                            A violência patrimonial ocorre quando o parceiro ou familiar passa a controlar, reter, subtrair, destruir ou ocultar bens materiais, documentos pessoais, instrumentos de trabalho ou recursos financeiros da mulher.
+                        </p>
+                        <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                            Muitas vezes tratada como um assunto menor em comparação à violência física, ela é, na verdade, um dos principais mecanismos de controle usados para manter a mulher submissa, dependente e vulnerável dentro do relacionamento.
+                        </p>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <!-- Cards Informativos -->
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm" data-aos="fade-up" data-aos-delay="100">
+                            <div class="w-12 h-12 bg-brand-pink/10 text-brand-pink rounded-xl flex items-center justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+                            </div>
+                            <h3 class="font-semibold text-xl mb-2 text-brand-deep">Retenção</h3>
+                            <p class="text-gray-600 text-sm">Confisco de salários, cartões bancários ou documentos para limitar a sua autonomia.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm" data-aos="fade-up" data-aos-delay="200">
+                            <div class="w-12 h-12 bg-brand-purple/10 text-brand-purple rounded-xl flex items-center justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" /></svg>
+                            </div>
+                            <h3 class="font-semibold text-xl mb-2 text-brand-deep">Destruição</h3>
+                            <p class="text-gray-600 text-sm">Danos propositais a objetos de valor, instrumentos de trabalho ou bens de valor sentimental.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                            <div class="w-12 h-12 bg-brand-yellow/20 text-yellow-600 rounded-xl flex items-center justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" /></svg>
+                            </div>
+                            <h3 class="font-semibold text-xl mb-2 text-brand-deep">Controle</h3>
+                            <p class="text-gray-600 text-sm">Monitoramento excessivo e exigência de justificativas para qualquer gasto realizado.</p>
+                        </div>
+                        <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+                            <div class="w-12 h-12 bg-brand-mint/20 text-teal-600 rounded-xl flex items-center justify-center mb-4">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                            </div>
+                            <h3 class="font-semibold text-xl mb-2 text-brand-deep">Ocultação</h3>
+                            <p class="text-gray-600 text-sm">Esconder bens adquiridos em conjunto ou omitir informações e movimentações financeiras.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- A armadilha da dependência econômica -->
+        <section id="dependencia" class="py-24 px-4 md:px-8 bg-brand-purple/5 relative overflow-hidden">
+            <!-- Decoração de fundo -->
+            <div class="absolute top-0 right-0 -translate-y-1/2 translate-x-1/3 w-96 h-96 bg-brand-pink/10 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 translate-y-1/3 -translate-x-1/3 w-96 h-96 bg-brand-yellow/10 rounded-full blur-3xl"></div>
+            
+            <div class="max-w-4xl mx-auto relative z-10 text-center mb-16" data-aos="fade-up">
+                <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-purple mb-4">A armadilha da dependência econômica</h2>
+                <p class="text-lg text-gray-600">Entenda como o ciclo de controle se forma silenciosamente, passo a passo.</p>
+            </div>
+
+            <div class="max-w-3xl mx-auto relative z-10">
+                <!-- Timeline vertical -->
+                <div class="relative border-l-2 border-brand-purple/20 pl-8 space-y-12 ml-4 md:ml-0">
+                    
+                    <div class="relative" data-aos="fade-left" data-aos-delay="100">
+                        <div class="absolute -left-[41px] top-1 w-6 h-6 bg-brand-yellow rounded-full border-4 border-white shadow-sm"></div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-brand-purple/5">
+                            <span class="text-brand-pink font-bold text-sm tracking-widest uppercase">Passo 1</span>
+                            <h3 class="font-display text-xl font-semibold text-brand-deep mt-2 mb-3">Sutileza e Falsa Proteção</h3>
+                            <p class="text-gray-600">O agressor geralmente começa oferecendo-se para cuidar das finanças sob o pretexto de poupar a mulher de preocupações burocráticas e estresse do dia a dia.</p>
+                        </div>
+                    </div>
+
+                    <div class="relative" data-aos="fade-left" data-aos-delay="200">
+                        <div class="absolute -left-[41px] top-1 w-6 h-6 bg-brand-pink rounded-full border-4 border-white shadow-sm"></div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-brand-purple/5">
+                            <span class="text-brand-pink font-bold text-sm tracking-widest uppercase">Passo 2</span>
+                            <h3 class="font-display text-xl font-semibold text-brand-deep mt-2 mb-3">Isolamento Financeiro</h3>
+                            <p class="text-gray-600">Aos poucos, a mulher perde o acesso e as senhas das próprias contas bancárias, sendo obrigada a pedir dinheiro e apresentar notas fiscais para justificar gastos básicos.</p>
+                        </div>
+                    </div>
+
+                    <div class="relative" data-aos="fade-left" data-aos-delay="300">
+                        <div class="absolute -left-[41px] top-1 w-6 h-6 bg-brand-purple rounded-full border-4 border-white shadow-sm"></div>
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-brand-purple/5">
+                            <span class="text-brand-pink font-bold text-sm tracking-widest uppercase">Passo 3</span>
+                            <h3 class="font-display text-xl font-semibold text-brand-deep mt-2 mb-3">Perda da Autonomia</h3>
+                            <p class="text-gray-600">Sem recursos próprios, afastada do mercado de trabalho e com a autoestima abalada, a mulher encontra-se presa em um ciclo de dependência do qual sente ser impossível sair sozinha.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- As leis e as mulheres por trás delas -->
+        <section id="leis" class="py-24 px-4 md:px-8 bg-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="font-display text-3xl md:text-4xl font-bold text-brand-deep mb-4">As Leis e a Proteção</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">Conheça as legislações vigentes que protegem seus direitos financeiros e patrimoniais em situações de abuso.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <div class="group bg-white rounded-2xl shadow-md p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl border border-gray-100 hover:border-brand-pink/50 cursor-default" data-aos="fade-up" data-aos-delay="100">
+                        <div class="w-12 h-12 bg-gray-100 rounded-full mb-4 group-hover:bg-brand-pink/10 transition-colors flex items-center justify-center">
+                            <span class="text-brand-deep font-bold">#1</span>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-brand-deep mb-2">Lei Maria da Penha</h3>
+                        <p class="text-sm text-gray-600 mt-2 leading-relaxed">
+                            A Lei 11.340/2006 reconhece e tipifica expressamente a violência patrimonial como uma das cinco formas de violência doméstica e familiar contra a mulher, garantindo medidas protetivas de urgência.
+                        </p>
+                    </div>
+
+                    <div class="group bg-white rounded-2xl shadow-md p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl border border-gray-100 hover:border-brand-yellow/50 cursor-default" data-aos="fade-up" data-aos-delay="200">
+                        <div class="w-12 h-12 bg-gray-100 rounded-full mb-4 group-hover:bg-brand-yellow/20 transition-colors flex items-center justify-center">
+                            <span class="text-brand-deep font-bold">#2</span>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-brand-deep mb-2">Medidas Cautelares</h3>
+                        <p class="text-sm text-gray-600 mt-2 leading-relaxed">
+                            O Código de Processo Civil e a própria Maria da Penha preveem a possibilidade de arrolamento judicial e bloqueio de bens, evitando que o agressor venda ou oculte o patrimônio do casal antes da separação legal.
+                        </p>
+                    </div>
+
+                    <div class="group bg-white rounded-2xl shadow-md p-6 transform transition-all duration-300 ease-out hover:scale-105 hover:shadow-xl border border-gray-100 hover:border-brand-purple/50 cursor-default" data-aos="fade-up" data-aos-delay="300">
+                        <div class="w-12 h-12 bg-gray-100 rounded-full mb-4 group-hover:bg-brand-purple/10 transition-colors flex items-center justify-center">
+                            <span class="text-brand-deep font-bold">#3</span>
+                        </div>
+                        <h3 class="font-display text-lg font-semibold text-brand-deep mb-2">Restituição de Bens</h3>
+                        <p class="text-sm text-gray-600 mt-2 leading-relaxed">
+                            O sistema de justiça assegura à vítima o direito à restituição imediata de seus bens indevidamente subtraídos pelo agressor, incluindo documentos pessoais que garantam o exercício de seus direitos civis.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Eis os dados -->
+        <section id="dados" class="py-24 px-4 md:px-8 bg-brand-deep text-white">
+            <div class="max-w-6xl mx-auto">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="font-display text-3xl md:text-4xl font-bold mb-4">A Realidade em Números</h2>
+                    <p class="text-lg text-gray-300 max-w-2xl mx-auto">Estatísticas fictícias demonstrando a gravidade do problema na sociedade.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    
+                    <div data-aos="zoom-in" data-aos-delay="100" class="p-6">
+                        <div class="font-display text-5xl md:text-6xl font-bold text-brand-yellow mb-2">48%</div>
+                        <h3 class="text-xl font-semibold mb-2">Das Mulheres</h3>
+                        <p class="text-gray-400 text-sm">Afirmam já ter sofrido algum tipo de controle excessivo sobre seus ganhos ou despesas no relacionamento.</p>
+                    </div>
+
+                    <div data-aos="zoom-in" data-aos-delay="200" class="p-6 md:border-x border-brand-purple/30">
+                        <div class="font-display text-5xl md:text-6xl font-bold text-brand-pink mb-2">1 em 4</div>
+                        <h3 class="text-xl font-semibold mb-2">Sofre Restrições</h3>
+                        <p class="text-gray-400 text-sm">Não possui acesso independente a uma conta bancária ou cartão de crédito em seu próprio nome.</p>
+                    </div>
+
+                    <div data-aos="zoom-in" data-aos-delay="300" class="p-6">
+                        <div class="font-display text-5xl md:text-6xl font-bold text-brand-mint mb-2">+10k</div>
+                        <h3 class="text-xl font-semibold mb-2">Denúncias</h3>
+                        <p class="text-gray-400 text-sm">Foram registradas no último ano nos canais oficiais de atendimento à mulher envolvendo retenção de bens.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusão + Saiba mais -->
+        <section id="conclusao" class="py-32 px-4 md:px-8 bg-white relative overflow-hidden">
+             <!-- Decoração -->
+             <div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, black 1px, transparent 0); background-size: 32px 32px;"></div>
+             
+             <div class="max-w-3xl mx-auto text-center relative z-10" data-aos="fade-up">
+                <div class="w-20 h-20 bg-brand-mint/20 rounded-full flex items-center justify-center mx-auto mb-8">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-brand-mint" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                </div>
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-brand-deep mb-6">Não sofra em silêncio</h2>
+                <p class="text-xl text-gray-600 mb-10 leading-relaxed">
+                    A violência patrimonial é crime e você não está sozinha. Existem mecanismos legais e redes de apoio prontos para te ajudar a reconquistar sua autonomia e independência financeira.
+                </p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="#" class="px-8 py-4 bg-brand-deep text-white font-semibold rounded-full hover:bg-brand-purple hover:-translate-y-1 transition-all duration-300 shadow-lg w-full sm:w-auto">
+                        Procurar Ajuda
+                    </a>
+                </div>
+             </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-12 px-4 md:px-8">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
+            <div class="text-center md:text-left">
+                <h3 class="font-display text-xl font-bold text-white mb-2">Contra Violência Patrimonial</h3>
+                <p class="text-sm">Conscientização e Apoio Legal.</p>
+            </div>
+            <div class="text-sm text-center md:text-right">
+                <p>&copy; 2026 Direitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
